@@ -1,0 +1,88 @@
+body{
+    background-color: black;
+}
+.container{
+    width: 550px;
+    margin: 45px auto;
+    background-color:darksalmon;
+    border: 3px dashed rgb(164, 213, 213);
+}
+
+.title{
+    margin: 25px 50px 0px;
+    text-align: center;
+    font-size: 44px;
+    color:rgb(255, 0, 0);
+    background-color:black;
+    font-weight:bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.question{
+    font-size:20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:blue;
+    background-color: gold;
+    margin: 20px 27.5px 0px;
+    border-radius: 7.5px;
+}
+
+.answerHolderTop, .answerHolderBottom{
+    margin: 45px 25px;
+}
+
+.buttonSeparator{
+    display:flex;
+    justify-content: space-around;
+}
+
+.answerA, .answerC{
+    float:left;
+}
+.answerB, .answerD{
+    float:right;
+}
+
+button:hover{
+    border: 1px solid rgb(9, 27, 163);
+    color: yellow;
+    background-color:rgb(10, 117, 31);
+    border-radius: 25px;
+    font-size:18px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    transition: 1.5s;
+}
+
+button{
+    background-color: rgb(6, 186, 186);
+    color:rgb(166, 70, 28);
+    font-size: 15.25px;
+    font-weight: bold;
+    border-color: aquamarine;
+    border-radius: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.resultsBox{
+    margin: 10px;
+}
+
+.results{
+    text-align:center;
+    margin: 7.5px 25px;
+}
+
+.gradeResults{
+    color:rgb(155, 173, 213);
+    background-color: rgb(155, 67, 67);
+    font-family: 'Times New Roman', Times, serif;
+}
+.gradeTalk{
+    color:rgb(191, 255, 101);
+    background-color: darkslateblue;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.incorrectParts{
+    color:rgb(247, 73, 87);
+    background-color: rgb(141, 184, 99);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
